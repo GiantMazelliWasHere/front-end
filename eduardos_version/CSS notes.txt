@@ -1,0 +1,5 @@
+:root - No CSS usamos ele para guardar nossas variáveis
+
+var() - assim chamamos as variáveis que setamos no root
+
+'--' devemos colocar antes das variáveis, tanto no setup do root quanto ao chamarmos.
