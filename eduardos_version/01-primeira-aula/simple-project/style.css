@@ -1,12 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: #1e2235;
     color: #ffff;
     font-family: "Roboto", sans-serif;
+}
+
+header {
+    width: 80%; /* porcentagem da tela */
+    height: 100vh; /*vh siguinifica o tamanho da tela */
+    margin: 0 auto; /* 0 define o top/bottom e o auto o dos lados */
+    padding: 3rem 0; /* rem = borda padrão 16px multiplicada por N rem */
+    box-sizing: border-box; /* para não afetar o tamanho do conteúdo */
+}
+
+nav {
+    width: 100%;
+    display: inline-block;
+}
+
+nav img {
+    float: left; /* envia o conteudo para o local selecionado */
+}
+
+nav ul {
+    font-weight: 300;
+    list-style: none; 
+    float: right;
+    position: relative;
+    transform: translateY(75%);
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a:last-child {
+    margin: 10px;
+}
+
+.line {
+    border-left: 1px solid #fff;
+}
+
+.btn-outline {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #8b5cf6;
+    background-color: #8b5cf6;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.banner-header {
+    height: 100%;
+    padding-top: 5rem;
+}
+
+.banner-header .left {
+    float: left;
+    width: 50%;
+}
+
+.banner-header .right {
+    float: right;
+    width: 50%;
+}
+
+div h2 {
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    color: #8b5cf6;
+    letter-spacing: 2px;
+}
+
+div h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+}
+
+div p {
+    margin: 20px 0  60px 0;
+    font-weight: 300;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+div .btn {
+    margin-top: 80px;
+}
+
+div .mini-mesage {
+    font-size: 0.9rem;
 }
