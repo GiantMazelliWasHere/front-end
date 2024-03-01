@@ -1,0 +1,2 @@
+background cover - para imagem
+border radius top
