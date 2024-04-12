@@ -1,0 +1,4 @@
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+https://tailwindcss.com/
+
+bootstrap mantem 12 colunas que devemos dividir em grupos para usar
