@@ -1,5 +1,0 @@
-npm init
-npm install express body-parser cors
-npm install openai@^4.0.0
-
-add '"type": "module",' to package.json
