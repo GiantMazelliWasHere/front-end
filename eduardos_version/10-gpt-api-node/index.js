@@ -1,9 +1,11 @@
 import OpenAI from "openai";
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
 
 const openai = new OpenAI({
     organization:"org-qzsU9lbW27jBN1GWIXz96VVS",
     apiKey:""
-    // sk-proj-ZmyFkPpxnL4DUFloEwGlT3BlbkFJbIioKdXAbEYDvaSv8bHQ
 });
 
 const chatCompletion = await openai.chat.completions.create({
