@@ -1,31 +1,42 @@
 .main-section{
     height: 100vh;
+    background-color: darkslategray;
 }
 
 #chat-log{
     width: 90%;
-    background-color: #eaeaea;
     padding: 5vh;
     margin: 20px auto;
 }
 
+.input-group{
+    margin-top: 50px;
+    padding: 0 1rem 1rem 1rem;
+}
+
 .message--sent{
-    text-align: left;
-    color: #8b003a;
+    text-align: right;
+    background-color: lightgray;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
 }
 
 .message--sent::before{
     content: "Usuário";
     font-size: 12px;
-    color: #8b003a;
+    color: #e60562;
 }
 
 .message--received{
-    text-align: right;
+    text-align: left;
     margin-top: 20px;
+    background-color: rgb(47, 47, 246);
+    padding-left: 1rem;
+    border-radius: 0.5rem;
 }
 
 .message--received::before{
     content: "Assistente (API)";
     font-size: 12px;
+    background: none;
 }
